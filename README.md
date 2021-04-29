@@ -41,6 +41,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+Sentiment analysis is a popular Natural Language Processing (NLP) technique to mine user perception and preference from real-time social media text. This same technique can be used in drug review texts to predict positive and negative sentiment. Hence, it helps to discover drug effectiveness, side effects and interaction of multiple drugs. It is especially helpful to detect sentiment from newly released drugs, e.g. COVID-19 vaccines. Most of the current sentiment analysis techniques are statistical learning (e.g. SVN, logistic regression, random forest) and basic deep neural network architecture (e.g. ANN, CNN and RNN). Their result is focus on test result accuracy rather than interpretability. Some also train one model per single medical condition to increase test accuracy. Our project uses a drug review text dataset with 215,063 reviews from UCI Machine Learning repository. Our project focuses on deep learning networks. We propose generic sentiment classifiers for all medical conditions in training dataset to use 1-D CNN, Bi-GRU and Transformer with attention to predict sentiment from drug review texts.. We use pre-trained word embedding GloVe to encode related words and concepts closer together. The results so far at this stage is encouraging. We have implemented base models, and base plus additional features at this point. All of the implemented models reach over 80% test accuracy. Additional input features extracted from NLP do improve deep learning networks prediction power. We will implement attention mechanisms to see if interpretability can be achieved without sacrificing accuracy.
+
 
 ### Built With
 
@@ -114,7 +116,7 @@ Project Link: [https://github.com/smvijaykumar/CS598-LHO](https://github.com/smv
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* [Multiclass-text-classification]([https://www.kaggle.com/mlwhiz/multiclass-text-classification-pytorch](https://www.kaggle.com/mlwhiz/multiclass-text-classification-pytorch)
+* [Multiclass-text-classification][https://www.kaggle.com/mlwhiz/multiclass-text-classification-pytorch](https://www.kaggle.com/mlwhiz/multiclass-text-classification-pytorch)
 * [Sentiment Analysis in Pytorch](https://github.com/bentrevett/pytorch-sentiment-analysis)
 * [IMDB Sentiment Analysis using Pytorch](https://github.com/iArunava/IMDB-Sentiment-Analysis-using-PyTorch)
 
