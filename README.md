@@ -41,12 +41,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`smvijaykumar`, `CS598-LHO`, `vimoha79`, `vs24@illinois.edu`, `Drug Reviews Sentiment Analysis using Deep Learning Networks with Attention Models`, `Description`
-
 
 ### Built With
 
@@ -120,7 +114,7 @@ Project Link: [https://github.com/smvijaykumar/CS598-LHO](https://github.com/smv
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* [Multiclass-text-classification]([https://www.kaggle.com/mlwhiz/multiclass-text-classification-pytorch](https://www.kaggle.com/mlwhiz/multiclass-text-classification-pytorch))
+* [Multiclass-text-classification]([https://www.kaggle.com/mlwhiz/multiclass-text-classification-pytorch](https://www.kaggle.com/mlwhiz/multiclass-text-classification-pytorch)
 * [Sentiment Analysis in Pytorch](https://github.com/bentrevett/pytorch-sentiment-analysis)
 * [IMDB Sentiment Analysis using Pytorch](https://github.com/iArunava/IMDB-Sentiment-Analysis-using-PyTorch)
 
