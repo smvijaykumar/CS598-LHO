@@ -100,11 +100,47 @@ To import anaconda environments, you can do it from anaconda navigator
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+-   [Data preprocessing](https://nbviewer.jupyter.org/github/smvijaykumar/CS598-LHO/blob/main/sentiment-analysis-drug-reviews/1_data_processing.ipynb)
+    
+    The first notebook covers data loading from the raw dataset, feature extraction and analysis, also text preprocessing and train/val/test sets preparation.
+    
+-   [Vocabulary and batch iterator](https://nbviewer.jupyter.org/github/smvijaykumar/CS598-LHO/blob/main/sentiment-analysis-drug-reviews/2_vocabulary.ipynb)
+    
+    The second tutorial contains instructions on how to set up the vocabulary object that will be responsible for the following tasks:
+    
+    -   Creating dataset's vocabulary.
+    -   Filtering dataset in terms of the rare words occurrence and sentences lengths.
+    -   Mapping words to their numerical representation (word2index) and reverse (index2word).
+    -   Enabling the use of pre-trained word vectors.
+    
+    Furthermore, we will build the BatchIterator class that could be used for:
+    
+    -   Sorting dataset examples.
+    -   Generating batches.
+    -   Sequence padding.
+    -   Enabling BatchIterator instance to iterate through all batches.
+    
+-   [BiGRU model](https://nbviewer.jupyter.org/github/smvijaykumar/CS598-LHO/blob/main/sentiment-analysis-drug-reviews/3_biGRU.ipynb)
+    
+    In the third notebook, the bidirectional Gated Recurrent Unit model will be built. In our neural network we will implement and use the following architectures and techniques: bidirectional GRU, stacked (multi-layer) GRU, dropout/spatial dropout, max-pooling, avg-pooling. The hyperparameters fine-tuning process will be presented. After choosing the proper parameters set, we will train our model and determine the generalization error.
+    
+-   [BiGRU with additional features](https://nbviewer.jupyter.org/github/smvijaykumar/CS598-LHO/blob/main/sentiment-analysis-drug-reviews/4_biGRU_with_additional_features.ipynb)
+    
+    In this notebook, we will implement the bidirectional Gated Recurrent Unit model that uses features extracted in the first tutorial.
+   
+    
+-   [TextCNN](https://nbviewer.jupyter.org/github/smvijaykumar/CS598-LHO/blob/main/sentiment-analysis-drug-reviews/5_TextCNN.ipynb)
+    
+    In this notebook, we will build the Convolutional Neural Network model for text classification.
+    
+-   [Transformer model for classification](https://nbviewer.jupyter.org/github/smvijaykumar/CS598-LHO/blob/main/sentiment-analysis-drug-reviews/6_Transformer.ipynb)
+    
+    Implementation of the Self-Attention Transformer model for the classification task.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-
+-   [Transformer model with Additional features for classification](https://nbviewer.jupyter.org/github/smvijaykumar/CS598-LHO/blob/main/sentiment-analysis-drug-reviews/6_Transformer-WithAdditionalFeatures.ipynb)
+    
+    Implementation of the Self-Attention Transformer model for the classification task.
+    
 <!-- CONTACT -->
 ## Contact
 
@@ -116,7 +152,7 @@ Project Link: [https://github.com/smvijaykumar/CS598-LHO](https://github.com/smv
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* [Multiclass-text-classification][https://www.kaggle.com/mlwhiz/multiclass-text-classification-pytorch](https://www.kaggle.com/mlwhiz/multiclass-text-classification-pytorch)
+* [Multiclass-text-classification](https://www.kaggle.com/mlwhiz/multiclass-text-classification-pytorch)
 * [Sentiment Analysis in Pytorch](https://github.com/bentrevett/pytorch-sentiment-analysis)
 * [IMDB Sentiment Analysis using Pytorch](https://github.com/iArunava/IMDB-Sentiment-Analysis-using-PyTorch)
 
