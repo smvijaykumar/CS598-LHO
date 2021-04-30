@@ -102,12 +102,11 @@ To import anaconda environments, you can do it from anaconda navigator
 
 -   [Data preprocessing](https://nbviewer.jupyter.org/github/smvijaykumar/CS598-LHO/blob/main/sentiment-analysis-drug-reviews/1_data_processing.ipynb)
     
-    The first notebook covers data loading from the raw dataset, feature extraction and analysis, also text preprocessing and train/val/test sets preparation.
+    In this notebook, we apply various data processing techniques such as duplicate removals, replacing null with empty, stemming, parts of speech tagging and stop words removal. Finally we create train,test and validation dataset.
     
--   [Vocabulary and batch iterator](https://nbviewer.jupyter.org/github/smvijaykumar/CS598-LHO/blob/main/sentiment-analysis-drug-reviews/2_vocabulary.ipynb)
+-   [Vocabulary building](https://nbviewer.jupyter.org/github/smvijaykumar/CS598-LHO/blob/main/sentiment-analysis-drug-reviews/2_vocabulary.ipynb)
     
-    The second tutorial contains instructions on how to set up the vocabulary object that will be responsible for the following tasks:
-    
+    In this notebook we create vocabulary from train, test and validation dataset and also create weights matrix using glove embedding.
     -   Creating dataset's vocabulary.
     -   Filtering dataset in terms of the rare words occurrence and sentences lengths.
     -   Mapping words to their numerical representation (word2index) and reverse (index2word).
@@ -122,24 +121,24 @@ To import anaconda environments, you can do it from anaconda navigator
     
 -   [BiGRU model](https://nbviewer.jupyter.org/github/smvijaykumar/CS598-LHO/blob/main/sentiment-analysis-drug-reviews/3_biGRU.ipynb)
     
-    In the third notebook, the bidirectional Gated Recurrent Unit model will be built. In our neural network we will implement and use the following architectures and techniques: bidirectional GRU, stacked (multi-layer) GRU, dropout/spatial dropout, max-pooling, avg-pooling. The hyperparameters fine-tuning process will be presented. After choosing the proper parameters set, we will train our model and determine the generalization error.
+    In this notebook, we built basic biGRU model and then we trained, evaluated and tested the dataset and created plots to show performance metrics such as accuracy and F1 score and plotted roc_curve.
     
 -   [BiGRU with additional features](https://nbviewer.jupyter.org/github/smvijaykumar/CS598-LHO/blob/main/sentiment-analysis-drug-reviews/4_biGRU_with_additional_features.ipynb)
     
-    In this notebook, we will implement the bidirectional Gated Recurrent Unit model that uses features extracted in the first tutorial.
+    In this notebook, we built  biGRU model with POS features and then we trained, evaluated and tested the dataset and created plots to show performance metrics such as accuracy and F1 score and plotted roc_curve.
    
     
 -   [TextCNN](https://nbviewer.jupyter.org/github/smvijaykumar/CS598-LHO/blob/main/sentiment-analysis-drug-reviews/5_TextCNN.ipynb)
     
-    In this notebook, we will build the Convolutional Neural Network model for text classification.
+    In this notebook, we built the Convolutional Neural Network model for text classification and created plots to show performance metrics such as accuracy and F1 score and plotted roc_curve.
     
 -   [Transformer model for classification](https://nbviewer.jupyter.org/github/smvijaykumar/CS598-LHO/blob/main/sentiment-analysis-drug-reviews/6_Transformer.ipynb)
     
-    Implementation of the Self-Attention Transformer model for the classification task.
+    In this notebook, we built Transformer model for the classification task using attention mechanism. Created plots to show performance metrics such as accuracy and F1 score and plotted roc_curve.
 
 -   [Transformer model with Additional features for classification](https://nbviewer.jupyter.org/github/smvijaykumar/CS598-LHO/blob/main/sentiment-analysis-drug-reviews/6_Transformer-WithAdditionalFeatures.ipynb)
     
-    Implementation of the Self-Attention Transformer model for the classification task.
+    In this notebook, we built Transformer model for the classification task using attention mechanism and with additional POS features. Created plots to show performance metrics such as accuracy and F1 score and plotted roc_curve.
     
 <!-- CONTACT -->
 ## Contact
