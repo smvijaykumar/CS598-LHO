@@ -1,4 +1,4 @@
-
+  
 <br />
 <p align="center">
   <h3 align="center">Drug Reviews Sentiment Analysis using Deep Learning Networks with Attention Models</h3>
@@ -31,6 +31,7 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
+    <li><a href="#dataset">Datasets</li>  
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
@@ -143,7 +144,13 @@ To import anaconda environments, you can do it from anaconda navigator
 -   [Transformer model with Additional features for classification](https://nbviewer.jupyter.org/github/smvijaykumar/CS598-LHO/blob/main/sentiment-analysis-drug-reviews/6_Transformer-WithAdditionalFeatures.ipynb)
     
     In this notebook, we built Transformer model for the classification task using attention mechanism and with additional POS features. Created plots to show performance metrics such as accuracy and F1 score and plotted roc_curve.
-    
+ 
+ <!-- Datasets -->
+## Datasets
+   [Drugs Review Data](https://archive.ics.uci.edu/ml/datasets/Drug+Review+Dataset+%28Drugs.com%29#)
+   [Intermediate Processed Datasets](https://drive.google.com/drive/folders/1rfHxEKoDVghEv4hiTvyNXby3Ld_FKdv8?usp=sharing)
+   [Glove Embedding](https://drive.google.com/drive/folders/1jXjWDqUjtKWmny90_W-S6LSr39Sp2I_V?usp=sharing)
+   
 <!-- CONTACT -->
 ## Contact
 
@@ -175,6 +182,3 @@ Project Link: [https://github.com/smvijaykumar/CS598-LHO](https://github.com/smv
 [license-url]: https://github.com/smvijaykumar/repo/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/smvijaykumar
-
-
-
