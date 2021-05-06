@@ -132,6 +132,10 @@ To import anaconda environments, you can do it from anaconda navigator
     
     In this notebook, we built the Convolutional Neural Network model for text classification and created plots to show performance metrics such as accuracy and F1 score and plotted roc_curve.
     
+-   [TextCNN-POS](https://nbviewer.jupyter.org/github/smvijaykumar/CS598-LHO/blob/main/sentiment-analysis-drug-reviews/5_TextCNN-POS.ipynb)
+    
+    In this notebook, we built the Convolutional Neural Network model for text classification with additional POS features as input and created plots to show performance metrics such as accuracy and F1 score and plotted roc_curve.
+    
 -   [Transformer model for classification](https://nbviewer.jupyter.org/github/smvijaykumar/CS598-LHO/blob/main/sentiment-analysis-drug-reviews/6_Transformer.ipynb)
     
     In this notebook, we built Transformer model for the classification task using attention mechanism. Created plots to show performance metrics such as accuracy and F1 score and plotted roc_curve.
