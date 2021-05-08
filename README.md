@@ -108,17 +108,17 @@ To import anaconda environments, you can do it from anaconda navigator
 -   [Vocabulary building](https://nbviewer.jupyter.org/github/smvijaykumar/CS598-LHO/blob/main/sentiment-analysis-drug-reviews/2_vocabulary.ipynb)
     
     In this notebook we create vocabulary from train, test and validation dataset and also create weights matrix using glove embedding.
-    -   Creating dataset's vocabulary.
-    -   Filtering dataset in terms of the rare words occurrence and sentences lengths.
-    -   Mapping words to their numerical representation (word2index) and reverse (index2word).
-    -   Enabling the use of pre-trained word vectors.
+    -   Create vocabulary from dataset.
+    -   Filter dataset in terms of the rare words occurrence and sentences lengths.
+    -   Map words to their numerical representation (word2index) and reverse (index2word).
+    -   Use of pre-trained word vectors. ex: Glove
     
-    Furthermore, we will build the BatchIterator class that could be used for:
+    The BatchIterator class that could be used for:
     
-    -   Sorting dataset examples.
-    -   Generating batches.
+    -   Sort dataset examples.
+    -   Generate batches.
     -   Sequence padding.
-    -   Enabling BatchIterator instance to iterate through all batches.
+    -   Enable BatchIterator instance to iterate through all batches.
     
 -   [BiGRU model](https://nbviewer.jupyter.org/github/smvijaykumar/CS598-LHO/blob/main/sentiment-analysis-drug-reviews/3_biGRU.ipynb)
     
