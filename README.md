@@ -128,7 +128,10 @@ To import anaconda environments, you can do it from anaconda navigator
     
     In this notebook, we built  biGRU model with POS features and then we trained, evaluated and tested the dataset and created plots to show performance metrics such as accuracy and F1 score and plotted roc_curve.
    
+-   [BiGRU with Attention](https://nbviewer.jupyter.org/github/smvijaykumar/CS598-LHO/blob/main/sentiment-analysis-drug-reviews/3_biGRU_with_attention.ipynb)
     
+    In this notebook, we built basic biGRU model with attention and then we trained, evaluated and tested the dataset and created plots to show performance metrics such as accuracy and F1 score and plotted roc_curve.
+        
 -   [TextCNN](https://nbviewer.jupyter.org/github/smvijaykumar/CS598-LHO/blob/main/sentiment-analysis-drug-reviews/5_TextCNN.ipynb)
     
     In this notebook, we built the Convolutional Neural Network model for text classification and created plots to show performance metrics such as accuracy and F1 score and plotted roc_curve.
@@ -136,7 +139,11 @@ To import anaconda environments, you can do it from anaconda navigator
 -   [TextCNN-POS](https://nbviewer.jupyter.org/github/smvijaykumar/CS598-LHO/blob/main/sentiment-analysis-drug-reviews/5_TextCNN-POS.ipynb)
     
     In this notebook, we built the Convolutional Neural Network model for text classification with additional POS features as input and created plots to show performance metrics such as accuracy and F1 score and plotted roc_curve.
+
+-   [TextCNN-Attention](https://nbviewer.jupyter.org/github/smvijaykumar/CS598-LHO/blob/main/sentiment-analysis-drug-reviews/5_TextCNN_with_attention.ipynb)
     
+    In this notebook, we built the Convolutional Neural Network model for text classification with attention and created plots to show performance metrics such as accuracy and F1 score and plotted roc_curve.
+        
 -   [Transformer model for classification](https://nbviewer.jupyter.org/github/smvijaykumar/CS598-LHO/blob/main/sentiment-analysis-drug-reviews/6_Transformer.ipynb)
     
     In this notebook, we built Transformer model for the classification task using attention mechanism. Created plots to show performance metrics such as accuracy and F1 score and plotted roc_curve.
