@@ -172,7 +172,7 @@ Project Link: [https://github.com/smvijaykumar/CS598-LHO](https://github.com/smv
 * [Multiclass-text-classification](https://www.kaggle.com/mlwhiz/multiclass-text-classification-pytorch)
 * [Sentiment Analysis in Pytorch](https://github.com/bentrevett/pytorch-sentiment-analysis)
 * [IMDB Sentiment Analysis using Pytorch](https://github.com/iArunava/IMDB-Sentiment-Analysis-using-PyTorch)
-
+* [Sentiment Analysis in Pytorch](https://github.com/radoslawkrolikowski/sentiment-analysis-pytorch)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
